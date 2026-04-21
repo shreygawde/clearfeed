@@ -3,7 +3,7 @@
 // this keeps the API key off the client entirely.
 // TODO: move this to an env variable before deploying anywhere
 
-const BASE_URL = "http://localhost:5000/api";
+const BASE_URL = "https://clearfeed-backend.onrender.com/api";
 
 // Simple in-memory cache for search results, persisted to localStorage
 // so repeat searches within the same session don't burn API quota.
